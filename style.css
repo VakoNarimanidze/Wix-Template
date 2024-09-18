@@ -49,7 +49,7 @@ nav ul li a {
  
 #FirstSection {
     width: 100%;
-    background-image: url(backgroundImage.jpg);
+    background-image: url(../Wix-Template/Pictures/backgroundImage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 730px;
