@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Logo {
+    width: 300px;
+    font-size: 13px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav ul {
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#FirstSection {
+    width: 100%;
+    background-image: url(/Pictures/backgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 730px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.absolute h1 {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 28px;
+    width: 100%;
+}
+
+.absolute p {
+    text-align: center;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 15px;
+}
+
+#SecondSection::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: translateX(75000%);
+}
+
+.About {
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+
+}
+
+.About h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.About p {
+    width: 580px;
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#SecondSection::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: translateX(75000%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.BunchOfPics img {
+    width: 639.5px;
+    height: 501px;
+}
+
+.BunchOfPics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 50px;
+    margin-top: 80px;
+}
+
+#ThirdSection h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+
+#ForthSection::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: translateX(75000%);
+}
+
+#ForthSection h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+
+#ForthSection p {
+    width: 580px;
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#ForthSection::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: translateX(75000%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#FifthSection h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+
+#FifthSection h3 {
+    line-height: 1.6em;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputPart {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.inputPart input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+label {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+
+}
+
+button:hover {
+    color: #447F74;
+    transition: 0.6s ease
+}
+
+.checkboxPart {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.checkboxPart input {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.ContactPart {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+
+footer {
+    width: 100%;
+    letter-spacing: 1px;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+.Links {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+footer:last-child {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer:last-child a {
+    color: black;
+}
